@@ -40,6 +40,11 @@
     border-radius:10px; padding:10px 12px;
   }
   .note b{color:var(--ink); font-weight:600}
+  .tag{
+    margin-left:auto; font-size:11px; font-weight:600; letter-spacing:.06em;
+    color:var(--muted); border:1px solid var(--line); border-radius:999px;
+    padding:3px 9px; background:#fff;
+  }
   .steps{margin-top:40px; border-top:1px solid var(--line); padding-top:28px}
   .steps h2{font-size:17px; font-weight:650; margin-bottom:10px}
   .steps ol{margin-left:20px; color:var(--muted); font-size:14px}
@@ -63,11 +68,23 @@
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.6 4.2 21 3v8.5h-9.4V4.2zm0 15.6L21 21v-8.5h-9.4v7.3z"/></svg>
         Windows
       </div>
-      <div class="meta">Windows 10/11 · 64-bit · ~51 MB</div>
+      <div class="meta">Windows 10/11 · 64-bit · 0.9.71 · ~57 MB</div>
       <div class="note"><b>Birinchi ochishda:</b> SmartScreen oynasida
       “More info” → “Run anyway” bosiladi (bir martalik).</div>
-      <a class="btn" href="https://github.com/ZiyoVer/trk1-site/releases/download/v0.9.68/LiveTranslator-Setup-0.9.68.exe">Windows uchun yuklab olish</a>
-      <div class="meta" style="margin-top:8px"><a href="https://github.com/ZiyoVer/trk1-site/releases/download/v0.9.68/LiveTranslator-Setup-0.9.68.exe" style="color:inherit">Naushnikli eski versiya (0.9.40) — barqaror</a></div>
+      <a class="btn" href="https://github.com/ZiyoVer/trk1-site/releases/download/v0.9.71/LiveTranslator-Setup-0.9.71.exe">Windows uchun yuklab olish</a>
+    </div>
+
+    <div class="card">
+      <div class="os">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.6 4.2 21 3v8.5h-9.4V4.2zm0 15.6L21 21v-8.5h-9.4v7.3z"/></svg>
+        Windows OPS
+        <span class="tag">MONITOR</span>
+      </div>
+      <div class="meta">Monitorli sinov kompyuteri uchun · 0.9.71 · ~57 MB</div>
+      <div class="note"><b>Faqat sinov mashinasi uchun.</b> Ayni dastur, lekin
+      yangilanishni <b>alohida oqimdan</b> oladi — yangi versiyalar avval shu
+      yerga chiqadi va oddiy Windows kompyuterlariga aralashmaydi.</div>
+      <a class="btn" href="https://github.com/ZiyoVer/trk1-site/releases/download/v0.9.71/LiveTranslator-OPS-Setup-0.9.71.exe">Windows OPS uchun yuklab olish</a>
     </div>
 
     <div class="card">
@@ -87,6 +104,8 @@
     <ol>
       <li>Ilova birinchi ochilganda sizga berilgan <b>API kalit</b>ni kiritasiz — kalit faqat shu kompyuterda saqlanadi.</li>
       <li>Virtual audio kanal (BlackHole / VB-CABLE) yo‘q bo‘lsa, ilova o‘zi rasmiy o‘rnatuvchini taklif qiladi — bitta admin parol yetadi.</li>
+      <li>Yangilanish <b>o‘zi</b> bo‘ladi: ilova yangi versiyani yuklab oladi,
+      eskisini o‘chiradi va o‘zini qayta ochadi — hech narsa bosilmaydi.</li>
       <li>Rejimni tanlang: <b>Tinglash</b>, <b>Gapirish</b> yoki <b>Ikki tomonlama</b> — audio yo‘llari avtomatik sozlanadi.</li>
     </ol>
   </div>
